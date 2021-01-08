@@ -1,0 +1,16 @@
+def calc():
+  n1=int(input("Enter a number "))
+  operator=input("enter +, -, * or /  ")
+  n2=int(input("Enter sencond number "))
+
+  if operator == "+":
+    print(n1+n2)
+  elif operator == "-":
+    print(n1-n2)
+  elif operator == "*":
+    print(n1*n2)
+  elif operator == "/":
+    print(n1/n2)
+
+
+calc()
