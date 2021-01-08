@@ -1,0 +1,4 @@
+#For loop can loop through list item
+tvshow=['friends','got','sillicon valley','star trek','stranger thing']
+for i in tvshow:
+  print(i)
