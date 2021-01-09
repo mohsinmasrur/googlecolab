@@ -1,0 +1,11 @@
+'''Ask the user for a number. Depending on whether the number is even or odd, print out an
+appropriate message to the user. • If the number is a multiple of 4, print out a different message.'''
+number=int(input("Enter a number please: "))
+if number%2==0:
+  if number%4==0:
+    print("It's an even number and multiple of 4")
+  else:
+    print("Even but not multiple of 4")
+
+else:
+  print("It's an odd number")
